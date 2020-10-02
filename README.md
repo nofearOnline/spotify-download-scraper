@@ -9,3 +9,7 @@ simple python script for downloading spotify playlist songs from youtube
 
 [mac](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg/wiki/Installing-ffmpeg-on-Mac-OS-X)
 
+and after it make sure you have all the required packages with
+
+pip install -r requirements.txt
+
