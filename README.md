@@ -3,7 +3,8 @@
 simple python script for downloading spotify playlist songs from youtube
 
 
-##NOTES
+## NOTES
+___
 
 **you have to install ffmpeg for this to work**, find how to do it in:
 
@@ -19,6 +20,7 @@ pip install -r requirements.txt
 
 this script convert 30 songs max.
 
-##HOW TO USE
+## HOW TO USE
+___
 
 run `python3 spotify_to_song_list.py`
