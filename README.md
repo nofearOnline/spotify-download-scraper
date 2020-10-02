@@ -13,3 +13,4 @@ and after it make sure you have all the required packages with
 
 pip install -r requirements.txt
 
+this script convert 30 songs max.
