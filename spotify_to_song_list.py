@@ -3,6 +3,7 @@ from modules.youtube_downloader import download_song
 
 __author__ = "https://github.com/nofearOnline"
 
+
 def main():
     url = input("Enter playlist url: ")
     song_list = get_song_list(url)
@@ -13,7 +14,11 @@ def main():
 
     for song in song_list:
         song_url = find_video_url(song)
-        download_song(song_url)
+        try:
+            download_song(song_url)
+        except:
+            print("skips song, download failed")
+            continue
 
     print("Thanks for using my script :)")
 
