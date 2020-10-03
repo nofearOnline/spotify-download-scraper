@@ -13,7 +13,10 @@ def main():
 
     for song in song_list:
         song_url = find_video_url(song)
-        download_song(song_url)
+        try:
+            download_song(song_url)
+        except:
+            continue
 
     print("Thanks for using my script :)")
 
