@@ -17,6 +17,7 @@ def main():
         try:
             download_song(song_url)
         except:
+            print("skips song, download failed")
             continue
 
     print("Thanks for using my script :)")
