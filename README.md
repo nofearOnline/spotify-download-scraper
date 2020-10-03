@@ -8,7 +8,8 @@ ___
 
 **you have to install ffmpeg for this to work**, find how to do it in:
 
-[windows](https://www.wikihow.com/Install-FFmpeg-on-Windows)
+[windows](https://www.wikihow.com/Install-FFmpeg-on-Windows) 
+**dont use the install url from step 1 instead use https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-full.zip **
 
 [linux](https://www.tecmint.com/install-ffmpeg-in-linux/)
 
